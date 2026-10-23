@@ -6,9 +6,7 @@
 | **Reviewers** |  Instructor |
 | **Status** | In Review |
 | **Last updated** | 2026-10-22 |
-| **Links** | Proposal: https://docs.google.com/document/d/1iBrFLyfY3VYon1t1mtc_l0OpALcGCperPeTFTCAm9Mg/edit?tab=t.0 · 
-Repo: https://github.com/kinggreyson/InlineCodeCreator · 
-Issues Tracker: https://github.com/kinggreyson/InlineCodeCreator/issues |
+| **Links** | Proposal: https://docs.google.com/document/d/1iBrFLyfY3VYon1t1mtc_l0OpALcGCperPeTFTCAm9Mg/edit?tab=t.0 · Repo: https://github.com/kinggreyson/InlineCodeCreator · Issues Tracker: https://github.com/kinggreyson/InlineCodeCreator/issues |
 
 ## Revision history
 
