@@ -6,7 +6,7 @@
 | **Reviewers** | [TODO: Instructor] |
 | **Status** | In Review |
 | **Last updated** | 2026-10-22 |
-| **Links** | [proposal] · https://github.com/kinggreyson/InlineCodeCreator · [issue tracker] |
+| **Links** | https://docs.google.com/document/d/1iBrFLyfY3VYon1t1mtc_l0OpALcGCperPeTFTCAm9Mg/edit?tab=t.0 · https://github.com/kinggreyson/InlineCodeCreator · https://github.com/kinggreyson/InlineCodeCreator/issues |
 
 ## Revision history
 
@@ -102,6 +102,7 @@ Who owns what state: Persistence owns what is saved on disk. The Editor owns the
 
 ## 6. Technology choices and alternatives considered
 
+    # First Choice
 - **Decision:** Build a standalone desktop app instead of a Google Docs add-on
 - **Chosen:** Electron app with a React and Tiptap editor.
 - **Alternative considered:** A Google Docs add-on, which would have meant a familiar surface and no install.
@@ -109,6 +110,7 @@ Who owns what state: Persistence owns what is saved on disk. The Editor owns the
 - **Evidence:** Spike on the add-on path. Tested creating a minor example in Google Docs, and ran into the limitations described above. Made the decision to strive for higher quality in a custom application.
 - **What would change our mind:** Docs gaining embeddable interactive blocks, or interviews showing students will not leave Google Docs for a separate app.
 
+    # Second Choice
 - **Decision:** Run Python locally in the app with Pyodide instead of a server-side sandbox
 - **Chosen:** Pyodide (Python compiled to WebAssembly), bundled in the app, so code runs on the student's own machine.
 - **Alternative considered:** Sending code to a server-side sandbox (for example, containers or a hosted code-execution service).
@@ -144,4 +146,4 @@ The order follows what I see as the biggest risks:
 
 | Reviewer | Role | Date | Approved |
 |---|---|---|---|
-| [name] | [role] | [date] | ☐ |
+| [Dr. Stephens] | [Instructor] | [date] | ☐ |
