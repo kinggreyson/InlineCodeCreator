@@ -3,10 +3,12 @@
 | | |
 |---|---|
 | **Authors** | Greyson King |
-| **Reviewers** | [TODO: Instructor] |
+| **Reviewers** |  Instructor |
 | **Status** | In Review |
 | **Last updated** | 2026-10-22 |
-| **Links** | https://docs.google.com/document/d/1iBrFLyfY3VYon1t1mtc_l0OpALcGCperPeTFTCAm9Mg/edit?tab=t.0 · https://github.com/kinggreyson/InlineCodeCreator · https://github.com/kinggreyson/InlineCodeCreator/issues |
+| **Links** | Proposal: https://docs.google.com/document/d/1iBrFLyfY3VYon1t1mtc_l0OpALcGCperPeTFTCAm9Mg/edit?tab=t.0 · 
+Repo: https://github.com/kinggreyson/InlineCodeCreator · 
+Issues Tracker: https://github.com/kinggreyson/InlineCodeCreator/issues |
 
 ## Revision history
 
@@ -79,7 +81,7 @@ The same flow when the student's code never finishes (for example, an accidental
 
 1. Steps 1–4 are as above.
 2. The Execution engine does not return, and the Run button shows a running state.
-3. After a time limit [TODO: decide the limit, see §7], the Execution engine is stopped and restarted.
+3. After a time limit (The value is undecided, see §7), the Execution engine is stopped and restarted.
 4. The cell shows a clear "stopped: took too long" message in the output area. The rest of the note stays editable and unchanged.
 5. The student fixes the code and runs again.
 
@@ -98,11 +100,10 @@ Two other failures follow the same principle: nothing the student wrote is lost,
 | Last run output | output text, whether it was an error | Belongs to one code Block | MVP |
 | Shared document | merged edits from multiple users | Belongs to one Note | Roadmap (Collaboration) |
 
-Who owns what state: Persistence owns what is saved on disk. The Editor owns the document while a note is open. The code-cell node owns transient run state (running, finished, error), which is never saved.
+Who owns what state: Persistence owns what is saved on disk. The Editor owns the document while a note is open. The code-cell node owns transient run state (running, finished, error), which is never saved. The last output is saved though.
 
 ## 6. Technology choices and alternatives considered
-
-    # First Choice
+   
 - **Decision:** Build a standalone desktop app instead of a Google Docs add-on
 - **Chosen:** Electron app with a React and Tiptap editor.
 - **Alternative considered:** A Google Docs add-on, which would have meant a familiar surface and no install.
@@ -110,12 +111,12 @@ Who owns what state: Persistence owns what is saved on disk. The Editor owns the
 - **Evidence:** Spike on the add-on path. Tested creating a minor example in Google Docs, and ran into the limitations described above. Made the decision to strive for higher quality in a custom application.
 - **What would change our mind:** Docs gaining embeddable interactive blocks, or interviews showing students will not leave Google Docs for a separate app.
 
-    # Second Choice
+    ### Decision 
 - **Decision:** Run Python locally in the app with Pyodide instead of a server-side sandbox
 - **Chosen:** Pyodide (Python compiled to WebAssembly), bundled in the app, so code runs on the student's own machine.
 - **Alternative considered:** Sending code to a server-side sandbox (for example, containers or a hosted code-execution service).
 - **Why the chosen option wins,** given our goals: It removes the riskiest infrastructure piece, safely running arbitrary student code on a server. It also keeps the app free of servers, accounts, and an internet dependency, which fits a one-semester solo MVP.
-- **Evidence:** Early interview evidence plus future plans to measure install size and first-launch time, in Milestone 1.
+- **Evidence:** Early interview evidence is why we choice Python. Plans to test Pyodide rely on future testing install size and first-launch time, in Milestone 1.
 What would change our mind: Pyodide cannot run representative course code, install size or startup time is unacceptable, or the target courses need another language.
 
 ## 7. Risks and open questions
@@ -146,4 +147,4 @@ The order follows what I see as the biggest risks:
 
 | Reviewer | Role | Date | Approved |
 |---|---|---|---|
-| [Dr. Stephens] | [Instructor] | [date] | ☐ |
+| Dr. Stephens | Instructor | [date] | ☐ |
