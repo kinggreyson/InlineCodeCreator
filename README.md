@@ -9,7 +9,7 @@ Follow this link to learn more about contributing to the project: [contributing.
 For instructions on the initial setup: [setup.md](https://github.com/kinggreyson/InlineCodeCreator/blob/main/docs/setup.md)
 
 ## Design
-Link to the full design document: [design.md](https://github.com/kinggreyson/InlineCodeCreator/blob/main/docs/architecture.md)
+Link to the full design document: [design.md](https://github.com/kinggreyson/InlineCodeCreator/blob/main/docs/design.md)
 
 ## Running it locally
 The project will be run in a file via Electron. Download is pending but it will bundle together every needed feature.
