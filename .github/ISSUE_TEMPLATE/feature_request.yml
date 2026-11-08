@@ -1,0 +1,34 @@
+name: Feature request
+description: Suggest something Prop Loft should do.
+labels: ["enhancement", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Start with the problem, not the solution. A clear problem can be solved several ways; a solution on its own leaves us guessing what you need. Check the design's [non-goals](https://github.com/prop-loft/prop-loft/blob/main/docs/design.md#2-goals-and-non-goals) first: those are out of scope on purpose.
+  - type: textarea
+    id: need
+    attributes:
+      label: The problem
+      description: What are you trying to do, and what gets in the way?
+      placeholder: When we strike a show, I can't tell which costumes came back without opening every checkout.
+    validations:
+      required: true
+  - type: input
+    id: who
+    attributes:
+      label: Who has this problem
+      description: A wardrobe lead, a volunteer, someone running Prop Loft for their theater?
+    validations:
+      required: true
+  - type: textarea
+    id: workaround
+    attributes:
+      label: What you do today instead
+      description: The workaround tells us how much this costs you now.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: An idea for how it could work (optional)
