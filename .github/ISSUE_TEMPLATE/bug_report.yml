@@ -1,0 +1,52 @@
+name: Bug report
+description: Something in Prop Loft doesn't work the way it should.
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. One problem per report, please: two problems in one issue usually means one of them gets lost.
+  - type: checkboxes
+    id: searched
+    attributes:
+      label: Before you file
+      options:
+        - label: I searched the open and closed issues, and this hasn't been reported.
+          required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered, starting from somewhere a stranger can get to. The fewer steps that still show the problem, the better.
+      placeholder: |
+        1. Go to the item list
+        2. Click "Add item"
+        3. Leave the bin empty and save
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected to happen
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened
+      description: Include the exact error message, if there was one. Screenshots help.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Your browser, and your operating system if you're running Prop Loft yourself. For setup problems, also the output of `python --version`.
+      placeholder: Firefox 131 on Windows 11, Python 3.12.4
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Anything else
+      description: Logs, screenshots, or how often it happens.
