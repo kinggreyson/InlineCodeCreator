@@ -1,5 +1,5 @@
 name: Feature request
-description: Suggest something Prop Loft should do.
+description: Suggest something Inline Code Creator should do.
 labels: ["enhancement", "needs triage"]
 body:
   - type: markdown
