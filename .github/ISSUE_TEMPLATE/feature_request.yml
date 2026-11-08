@@ -5,20 +5,20 @@ body:
   - type: markdown
     attributes:
       value: |
-        Start with the problem, not the solution. A clear problem can be solved several ways; a solution on its own leaves us guessing what you need. Check the design's [non-goals](https://github.com/prop-loft/prop-loft/blob/main/docs/design.md#2-goals-and-non-goals) first: those are out of scope on purpose.
+        Start with the problem, not the solution. A clear problem can be solved several ways; a solution on its own leaves us guessing what you need. Check the design's [non-goals](https://github.com/kinggreyson/InlineCodeCreator/blob/main/docs/design.md) first: those are out of scope on purpose.
   - type: textarea
     id: need
     attributes:
       label: The problem
       description: What are you trying to do, and what gets in the way?
-      placeholder: When we strike a show, I can't tell which costumes came back without opening every checkout.
+      placeholder: The code cell doesn't expand as I type code.
     validations:
       required: true
   - type: input
     id: who
     attributes:
       label: Who has this problem
-      description: A wardrobe lead, a volunteer, someone running Prop Loft for their theater?
+      description: A student, a contributor, or a maintainer of the project?
     validations:
       required: true
   - type: textarea
