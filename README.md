@@ -9,6 +9,9 @@ Follow this link to learn more about contributing to the project: [contributing.
 For instructions on the initial setup: [setup.md](https://github.com/kinggreyson/InlineCodeCreator/blob/main/docs/setup.md)
 
 ## Design
+The [design document](docs/design.md) covers the goals and non-goals, the architecture and its components, the data model, the key technology decisions (and the alternatives we rejected), the risks, and the
+build order. It is recommended viewing for any new contributors to understand what the project is leading to.
+
 Link to the full design document: [design.md](https://github.com/kinggreyson/InlineCodeCreator/blob/main/docs/design.md)
 
 ## Running it locally
