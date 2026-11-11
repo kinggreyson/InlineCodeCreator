@@ -36,6 +36,9 @@ These rules come from our [git standards](docs/git-standards.md). The reasoning 
 
 Maintainers merge approved pull requests, and the branch is deleted aftwerards. A change is finished when it is reviewed, merged, and working on 'main'.
 
+## License Rationale
+I chose the MIT License for Inline Code Creator because I want contributing to feel easy and low-risk. The license is short and readable, so you can understand exactly what it allows without legal help. You’re free to use, modify, and share your work on the project, and your contributions stay under the same simple terms.
+
 ## Questions
 
 Please open an issue, or comment on an issue you are working on if you have any questions.
