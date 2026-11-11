@@ -14,7 +14,7 @@ Link to the full design document: [design.md](https://github.com/kinggreyson/Inl
 ## Running it locally
 The project will be run in a file via Electron. Download is pending but it will bundle together every needed feature.
 
-For more information turn to the setup guide: [setup.md](https://github.com/kinggreyson/InlineCodeCreator/blob/main/docs/setup.md)
+Refer to the Setup section above for more information on running it locally.
 
 ## Maintainers
 
