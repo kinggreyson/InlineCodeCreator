@@ -3,10 +3,10 @@
 Inline Code Creator is a tool that allows those using it to insert blocks of code into their notes. It's purpose is to keep the formatting of prose you'd expect from Google Docs or Word documents while allowing the insertion of dynamically growing and runnable code.
 
 ## Contributing
-Follow this link to learn more about contributing to the project: [contributing.md](https://github.com/kinggreyson/InlineCodeCreator/blob/main/docs/contributing.md)
+Follow this link to learn more about contributing to the project: [contributing.md](https://github.com/kinggreyson/InlineCodeCreator/blob/main/CONTRIBUTING.md)
 
 ## Setup
-For instructions on the initial setup: [setup.md](https://github.com/kinggreyson/InlineCodeCreator/blob/main/docs/setup.md)
+For instructions on the initial setup: [setup.md](https://github.com/kinggreyson/InlineCodeCreator/blob/main/SETUP.md)
 
 ## Design
 Link to the full design document: [design.md](https://github.com/kinggreyson/InlineCodeCreator/blob/main/docs/design.md)
