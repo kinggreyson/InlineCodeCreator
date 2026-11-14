@@ -1,0 +1,26 @@
+name : Auto-label Needs Triage
+
+on:
+  issues:
+    types: [open]
+  pull_request_target:
+    types: [open]
+
+permissions:
+  issues : write
+  pull_request_target : write
+
+jobs:
+  add-triage-label:
+    runs-on : ubuntu-latest
+    steps:
+      - name : Apply needs triage label
+        uses : actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.addLabels({
+              owner : context.repo.owner,
+              repo : context.repo.repo,
+              issue_number : context.issue.number,
+              Labels : ['needs triage']
+            })
