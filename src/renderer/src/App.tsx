@@ -1,8 +1,15 @@
 import Versions from './components/Versions'
 import electronLogo from './assets/electron.svg'
+//import { useEffect } from 'react'
+//import { runPython } from './pyodide'
 
 function App(): React.JSX.Element {
   const ipcHandle = (): void => window.electron.ipcRenderer.send('ping')
+
+  //Test Pyodide
+  /*useEffect(() => {
+  runPython('print("hello")').then(console.log)
+}, [])*/
 
   return (
     <>
