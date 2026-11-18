@@ -20,7 +20,7 @@ Left out of Milestone 1 on purpose. See `docs/roadmap.md` for where each one is 
 |---|---|
 | **Python packages beyond the standard library** | Importing something like `numpy` fails with an error. Only the standard library is bundled. |
 | **`input()`** | Reading typed input from the cell does not work. |
-| **Automated tests** | There is no test suite yet. `npm run typecheck` is a check that exists. There's also a suite of Python code segments you can test in the compiler. Found in (Code Tests)[]
+| **Automated tests** | There is no test suite yet. `npm run typecheck` is a check that exists. There's also a suite of Python code segments you can test in the compiler. Found in (Code Tests)[https://github.com/kinggreyson/InlineCodeCreator/blob/main/docs/sample_code.md]
 | **Platforms other than Windows** | Built and tested on Windows only. macOS and Linux should work but are untried. |
 
 ## Expected behavior that can look like a bug

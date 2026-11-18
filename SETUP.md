@@ -43,7 +43,8 @@ Always start the app through npm run dev rather than calling electron directly. 
 ## Check that it works
 1. Run the `'print("hello world")'` placeholder to confirm it works. You should see hello world beneath the cell.
 2. Try `print(1/0)`. The error should appear in red, and the app should keep working.
-3. `Turn off your internet connection` and run it again. It should still work, because everything runs locally,
+3. `Turn off your internet connection` and run it again. It should still work, because everything runs locally.
+4. Try code snippets from the [Sample Code](https://github.com/kinggreyson/InlineCodeCreator/blob/main/docs/sample_code.md) to confirm more complex code works
 
 Note: The first run after the app starts takes a few seconds while Python loads. Later runs are fast.
 
