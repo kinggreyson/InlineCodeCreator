@@ -6,7 +6,7 @@ export default defineConfig({
   main: {},
   preload: {},
   renderer: {
-    optimizeDeps: {exclude: ['pyodide']},
+    optimizeDeps: { exclude: ['pyodide'] },
     resolve: {
       alias: {
         '@renderer': resolve('src/renderer/src')
