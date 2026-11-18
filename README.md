@@ -1,6 +1,6 @@
 # Inline Code Creator
 
-**Status** Not currently runnable
+**Status** M1 is Runnable
 
 Inline Code Creator is a tool that allows those using it to insert blocks of code into their notes. It's purpose is to keep the formatting of prose you'd expect from Google Docs or Word documents while allowing the insertion of dynamically growing and runnable code.
 
@@ -8,7 +8,7 @@ Inline Code Creator is a tool that allows those using it to insert blocks of cod
 Follow this link to learn more about contributing to the project: [contributing.md](https://github.com/kinggreyson/InlineCodeCreator/blob/main/CONTRIBUTING.md)
 
 ## Setup
-For instructions on the initial setup: [setup.md](https://github.com/kinggreyson/InlineCodeCreator/blob/main/SETUP.md)
+For instructions on the initial setup: [SETUP.md](https://github.com/kinggreyson/InlineCodeCreator/blob/main/SETUP.md)
 
 ## Design
 The [design document](docs/design.md) covers the goals and non-goals, the architecture and its components, the data model, the key technology decisions (and the alternatives we rejected), the risks, and the
@@ -17,12 +17,15 @@ build order. It is recommended viewing for any new contributors to understand wh
 Link to the full design document: [design.md](https://github.com/kinggreyson/InlineCodeCreator/blob/main/docs/design.md)
 
 ## Running it locally
-The project will be run in a file via Electron. Download is pending but it will bundle together every needed feature.
-
+The project will be run in a file via Electron. An Installer is planned further down the line.
 Refer to the Setup section above for more information on running it locally.
 
 ## Roadmap
 To learn where this project is going in the future go to the [Roadmap](https://github.com/kinggreyson/InlineCodeCreator/blob/main/docs/roadmap.md)
+
+
+## Known Issues
+Refer to the [Known Issues](https://github.com/kinggreyson/InlineCodeCreator/blob/main/docs/known_issues.md) for problems to expect that are being investigated.
 
 ## Maintainers
 

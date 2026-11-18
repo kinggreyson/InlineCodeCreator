@@ -15,20 +15,26 @@ This document will show you how to get the Inline Code Creator running on your m
 
 ## Get the code
 
-Run these commands in your editor of choice
+Run these commands in a terminal:
 
+```
 git clone https://github.com/kinggreyson/InlineCodeCreator.git
 cd InlineCodeCreator
+```
 
 ## Install Dependencies
 
+```
 npm install
+```
 
 This takes a few minutes the first time. You will see deprecation warnings and a vulnerability count at the end. Those come from build tooling and are expected, so you don't need to run npm audit fix.
 
 ## Run the app
 
+```
 npm run dev
+```
 
 An Electron window opens with a code cell. Your code changes reload automatically while this is running.
 
@@ -37,7 +43,7 @@ Always start the app through npm run dev rather than calling electron directly. 
 ## Check that it works
 1. Run the `'print("hello world")'` placeholder to confirm it works. You should see hello world beneath the cell.
 2. Try `print(1/0)`. The error should appear in red, and the app should keep working.
-3. Turn off your internet connection and run it again. It should still work, because everything runs locally,
+3. `Turn off your internet connection` and run it again. It should still work, because everything runs locally,
 
 Note: The first run after the app starts takes a few seconds while Python loads. Later runs are fast.
 
@@ -59,7 +65,6 @@ The exact list is in the `scripts` section of `package.json`. The ones you will 
 |---|---|
 | `npm run dev` | Run the app in development mode |
 | `npm run typecheck` | Check TypeScript types |
-| `npm run lint` | Check code style problems |
 | `npm run format` | Format the code with Prettier |
 | `npm run build` | Build the app for production |
 
